@@ -126,11 +126,10 @@ body {
     color: #555;
     margin: 10px 0;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
 }
 
-.link .btn-v-img {
-    background-color: #4CAF50;
+.btn {
+    background-color:orange;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -140,13 +139,21 @@ body {
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-left: 20px;
 } 
 
-.time{
-    margin-left: 20px;
-    text-align: center;
-    margin-top: 12px;
+.btn:hover{
+    background-color: #ff7f50;
 }
+
+.size{
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 80px;
+    margin-left: 75px;
+    font-size: 10px;
+}
+
 
 .quote{
     margin-top: 50px;
