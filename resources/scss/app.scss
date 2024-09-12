@@ -1,5 +1,6 @@
 @import './variables';
-
+@import '~noty/src/noty.scss';
+@import '~noty/src/themes/mint.scss';
 
 body {
     font-family: cursive;
@@ -43,10 +44,25 @@ body {
 }
 
 .cart-img {
-    width: 30px;
+    width: 50px;
     height: auto;
-    margin-right: 20px;
+    margin-right: 40px;
+    border-radius: 20px;
+    background-color: #ff7f50;
+}
+
+.cart-qty{
     border-radius: 10px;
+    background-color: #ff7f50;
+    width: 50px;
+    height: 2rem;
+}
+
+#cartcounter{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 15px;
+
 }
 
 /* Heading Section */
@@ -324,6 +340,13 @@ body {
  .login-footer{
     text-align: center;
  }
+
+.noty_theme__mint{
+    border-radius: 40px!important;
+    background-color: greenyellow;
+    padding-left: 10px!important;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .heading {

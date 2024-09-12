@@ -18,7 +18,10 @@
             <li><a href="#" class="item">Offers</a></li>
             <li><a href="/register" class="item">Register</a></li>
             <li><a href="/login" class="item">Login</a></li>
-            <li><a href="#"><img src="https://static.vecteezy.com/system/resources/previews/010/838/010/original/shopping-cart-icon-logo-illustration-trolley-cart-symbol-template-for-graphic-and-web-design-collection-free-vector.jpg" class="cart-img" alt=""></a></li>
+            <li class="cart-qty"><a href="/cart">
+               <span id="cartcounter" style="color: black; text-decoration: none;"><%= session.cart ? session.cart.totalqty : '' %></span>
+                <!-- <p class="cart-counter"><span>3</span></p> -->
+                <img src="https://static.vecteezy.com/system/resources/previews/010/838/010/original/shopping-cart-icon-logo-illustration-trolley-cart-symbol-template-for-graphic-and-web-design-collection-free-vector.jpg" class="cart-img" alt=""></a></li>
         </ul>
     </div>
 </div>
