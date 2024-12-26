@@ -1,0 +1,146 @@
+
+.cart-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cart-image{
+    text-align: center;
+    margin-left: 35%;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.cart-msg{
+    text-align: center;
+}
+
+.cart-btn{
+    width: 100px;
+    height: 40px;
+    background-color: #da7753;
+    border-radius: 20px;
+    margin-left: -250px;
+    margin-top: 20px;
+    color: #fff;
+    border: solid #da7753;
+}
+
+.cart-btn:hover{
+    background-color: #ed4406;
+    border: solid #f0531a;
+}
+
+.cart-pizza-img {
+    display: block;
+    margin-top: 30px;
+    margin: 20px auto;
+    width: auto;
+    max-width: 90%;
+    max-height: 200px;
+    border-radius: 20px;
+}
+
+.cart-order-size {
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 0px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+.price{
+    text-align: center;
+    margin-left: -10px;}
+
+.cart-order-type {
+        text-align: center;
+        margin-left: -10px;
+        margin-top: 0;
+    }
+
+.quantity{
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 0;
+}
+
+.reciept{
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.main{
+    border: solid black;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 600px;
+}
+
+.order-summary{
+    text-align: center;
+}
+
+.checkout{
+    width: 100px;
+    height: 40px;
+    background-color: #da7753;
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-top: 20px;
+    color: #fff;
+    border: solid #da7753;
+}
+
+@media (max-width: 768px) {
+    .cart-image{
+        margin-left: 150px;
+    }
+
+    
+    .cart-order-size {
+        text-align: center;
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+    .price{
+        text-align: center;
+        margin-left: -10px;}
+    
+    .cart-order-type {
+            text-align: center;
+            margin-left: -10px;
+            margin-top: 0;
+        }
+
+    .quantity{
+        text-align: center;
+        margin-left: -10px;
+        margin-top: 0;
+    }
+
+    .reciept{
+        text-align: center;
+        margin-left: -10px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    
+    .main{
+        border: solid black;
+        width: 300px;
+        border-radius: 10px;
+        margin-left: 240px;
+    }
+
+    .order-summary{
+        text-align: center;
+    }
+
+    .checkout{
+        margin-left: 20px;
+        width: 100px;
+        margin-top: 0px;
+    }
+}
