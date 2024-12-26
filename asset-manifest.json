@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Pizza_Delivery/static/css/main.775670c3.css",
-    "main.js": "/Pizza_Delivery/static/js/main.a15e05fb.js",
-    "static/js/488.9c92ff38.chunk.js": "/Pizza_Delivery/static/js/488.9c92ff38.chunk.js",
-    "static/media/cart-img.webp": "/Pizza_Delivery/static/media/cart-img.cb702367a46bbed55e01.webp",
-    "static/media/order-cart.webp": "/Pizza_Delivery/static/media/order-cart.4148344622bcd672abc9.webp",
-    "static/media/logo_image.avif": "/Pizza_Delivery/static/media/logo_image.be7cc21033134803f42d.avif",
-    "static/media/pizza.jpeg": "/Pizza_Delivery/static/media/pizza.bdffd8169586f2fccdc1.jpeg",
-    "index.html": "/Pizza_Delivery/index.html",
-    "main.775670c3.css.map": "/Pizza_Delivery/static/css/main.775670c3.css.map",
-    "main.a15e05fb.js.map": "/Pizza_Delivery/static/js/main.a15e05fb.js.map",
-    "488.9c92ff38.chunk.js.map": "/Pizza_Delivery/static/js/488.9c92ff38.chunk.js.map"
+    "main.css": "/static/css/main.775670c3.css",
+    "main.js": "/static/js/main.056ae165.js",
+    "static/js/488.9c92ff38.chunk.js": "/static/js/488.9c92ff38.chunk.js",
+    "static/media/cart-img.webp": "/static/media/cart-img.cb702367a46bbed55e01.webp",
+    "static/media/order-cart.webp": "/static/media/order-cart.4148344622bcd672abc9.webp",
+    "static/media/logo_image.avif": "/static/media/logo_image.be7cc21033134803f42d.avif",
+    "static/media/pizza.jpeg": "/static/media/pizza.bdffd8169586f2fccdc1.jpeg",
+    "index.html": "/index.html",
+    "main.775670c3.css.map": "/static/css/main.775670c3.css.map",
+    "main.056ae165.js.map": "/static/js/main.056ae165.js.map",
+    "488.9c92ff38.chunk.js.map": "/static/js/488.9c92ff38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.775670c3.css",
-    "static/js/main.a15e05fb.js"
+    "static/js/main.056ae165.js"
   ]
 }
