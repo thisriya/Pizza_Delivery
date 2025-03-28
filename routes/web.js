@@ -5,8 +5,10 @@ function init_routes(app){
     app.get('/', home_controller().index)
 
     app.get('/login',auth_controller().login)
+    app.post('/login',auth_controller().postlogin)
     
     app.get('/register', auth_controller().register)
+    app.post('/register', auth_controller().postregister)
     
     app.get('/cart',cart_controller().index)
     app.post('/update-cart',cart_controller().update)

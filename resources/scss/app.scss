@@ -169,7 +169,7 @@ body {
     border-radius: 20px;
     background-color: #ddd;
     width: 80px;
-    margin-left: 75px;
+    margin-left: 190px;
     font-size: 10px;
 }
 
@@ -294,7 +294,7 @@ body {
 
 .login{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 8%;
     border-radius: 10px;
     background-color: #ddd;
     margin-left: 500px;
@@ -316,6 +316,19 @@ body {
 #sign-in-btn:hover{
     background-color: #ed4406;
     border: solid #f0531a;
+}
+
+.error{
+    background-color: #da7753;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.error:hover{
+    background-color: #ed4406;
 }
 
 #forget-btn{
