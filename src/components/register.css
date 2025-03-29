@@ -1,0 +1,25 @@
+
+.register{
+    text-align: center;
+    margin-top: 8%;
+    border-radius: 10px;
+    background-color: #ddd;
+    margin-left: 300px;
+    margin-right: 500px;
+        }
+        
+        @media (max-width: 768px) {
+    .register{
+text-align: center;
+margin-top: 8%;
+border-radius: 10px;
+background-color: #ddd;
+margin-left: 300px;
+margin-right: 500px;
+    }
+.register{
+        width: 400px;
+        margin-left: 200px;
+        height: 290px;
+    }
+}

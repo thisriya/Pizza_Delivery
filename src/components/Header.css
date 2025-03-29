@@ -1,0 +1,46 @@
+body{
+    font-family: cursive;
+}
+.logo_class{
+    border-radius: 500px;
+    height: 90px;
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content:right;
+    padding: 0;
+    margin-top: -50px;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.item {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.item:hover {
+    color: #ff7f50;
+}
+
+.cart-img {
+    width: 50px;
+    height: auto;
+    margin-right: 40px;
+    border-radius: 20px;
+    background-color: #ff7f50;
+}
+
+.cart-qty{
+    border-radius: 10px;
+    background-color: #ff7f50;
+    width: 50px;
+    height: 2rem;
+}
