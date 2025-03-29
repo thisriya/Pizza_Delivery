@@ -1,0 +1,24 @@
+<section class="login">
+    <form action="/login" method="POST">
+        <% if (messages.error) { %>
+            <div class="alert alert-danger"><%= messages.error %></div>
+        <% } %>
+        <% if (messages.success) { %>
+            <div class="alert alert-success"><%= messages.success %></div>
+        <% } %>
+        
+        <div id="login">
+            <h2 id="h2_line">Please Login!</h2>
+            <label id="username">Email: 
+                <input type="email" name="email" placeholder="Enter Your Email" required />
+            </label>
+            <br />
+            <label id="password">Password: 
+                <input type="password" name="password" placeholder="Enter Your Password" required />
+            </label>
+            <br />
+            <button type="submit" class="b" id="sign-in-btn">Sign-In</button>
+            <a href="/register" class="forgot-link">Don't Have Account?</a>
+        </div>
+    </form>
+</section>

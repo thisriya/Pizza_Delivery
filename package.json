@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "my_app",
   "version": "0.1.0",
   "private": true,
@@ -39,5 +40,50 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
+=======
+  "name": "pizza-delivery",
+  "version": "1.0.0",
+  "description": "Pizza Delivery App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node node.js",
+    "dev": "nodemon server.js",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --stats=minimal --config=node_modules/laravel-mix/setup/webpack.config.js --watch",
+    "watch": "npm run development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
+  },
+  "homepage": "http://thisriya.github.io/pizza-delivery-with-backend",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "build": "^0.1.4",
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.20.0",
+    "express-ejs-layouts": "^2.5.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.18.0",
+    "gh-pages": "^6.2.0",
+    "mix": "^0.0.1",
+    "mongoose": "^8.6.2",
+    "noty": "^3.1.4",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.49",
+    "nodemon": "^3.1.4",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.78.0",
+    "sass-loader": "^12.1.0"
+>>>>>>> origin/master
   }
 }
