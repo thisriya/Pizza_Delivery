@@ -1,5 +1,5 @@
 {
-<<<<<<< HEAD
+
   "name": "my_app",
   "version": "0.1.0",
   "private": true,
@@ -39,8 +39,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
-=======
+    "gh-pages": "^3.2.3",
   "name": "pizza-delivery",
   "version": "1.0.0",
   "description": "Pizza Delivery App",
@@ -84,6 +83,6 @@
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.78.0",
     "sass-loader": "^12.1.0"
->>>>>>> origin/master
   }
+}
 }
